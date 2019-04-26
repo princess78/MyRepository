@@ -10,5 +10,5 @@ import cucumber.api.junit.Cucumber;
 features = "src/test/resourse/skeleton/login.feature",monochrome=true,dryRun=false )
 public class runcucumber 
 {
-
+//jjj
 }
