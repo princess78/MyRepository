@@ -2,6 +2,7 @@ package skeleton;
 
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -34,9 +35,37 @@ public class StepDefProducts
 	{
 		AddProducts.Username.sendKeys("admin");
 		AddProducts.password.sendKeys("Password456");
-		AddProducts.AddProduct.sendKeys("Gadgets");
-		AddProducts.Cname.sendKeys("Laptops");
-		AddProducts.SCname.sendKeys("HP laptops");
+		AddProducts.login.click();
+		
+		AddProducts.AddCName.click();
+		AddProducts.CategoryNmae.sendKeys("Gadget");
+		AddProducts.CategoryNmaeDesc.sendKeys("New category is added");
+		AddProducts.add.click();
+		driver.navigate().back();
+		driver.navigate().back();
+		
+		AddProducts.AddSubCName.click();
+		AddProducts.AddCatName.sendKeys("Gadget");
+		AddProducts.AddSubCatName.sendKeys("Laptops");
+		AddProducts.AddSubCatDesc.sendKeys("Subcategoty is added");
+		AddProducts.AddSubCat.click();
+		driver.navigate().back();
+		driver.navigate().back();
+		
+		
+		
+		
+		AddProducts.AddProduct.click();
+		AddProducts.Cname.sendKeys("Gadget");
+		AddProducts.SCname.sendKeys("Laptops");
+		AddProducts.Pname.sendKeys("HP laptop");
+		AddProducts.price.sendKeys("35000");
+	    AddProducts.quantity.sendKeys("10");
+	    AddProducts.brand.sendKeys("HP");
+	    AddProducts.description.sendKeys("Only for practice purpose");
+	    AddProducts.Product.click();
+	    AddProducts.file.sendKeys("C:\\Users\\Training_b6b.00.03\\Pictures\\Screenshots\\Screenshot (1).png");
+	    
 		
 		
 	}
@@ -44,7 +73,9 @@ public class StepDefProducts
 	 
 
 	@Then("admin add the product successfully")
-	public void admin_add_the_product_successfully() {
+	public void admin_add_the_product_successfully() 
+	{
+		Assert.assertTrue(AddProducts.AddProductSuccessfully.getText().contains("Product : HP laptop is added Succesfully"));
 
 
 	}

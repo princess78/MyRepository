@@ -10,47 +10,54 @@ public class AddProducts
     public static WebElement Username;
 	@FindBy(how = How.ID,using="password")
     public static WebElement password;
-	@FindBy(how = How.CSS,using="input[value='Login]")
+	@FindBy(how = How.CSS,using="input[value='Login']")
     public static WebElement login;
 	
 	
-	/*
-	 * @FindBy(how = How.CLASS_NAME,using="btn btn-nav active") public static
-	 * WebElement AddCName;
-	 * 
-	 * @FindBy(how = How.ID,using="catgName") public static WebElement CategoryNmae;
-	 * 
-	 * @FindBy(how = How.CSS,using="input[value='Add']") public static WebElement
-	 * CategoryNmaeDesc;
-	 * 
-	 * @FindBy(how = How.XPATH,using="/html/body/main/div/div/div/form/b/i") public
-	 * static WebElement message;
-	 * 
-	 * 
-	 * @FindBy(how = How.CLASS_NAME,using="btn btn-nav") public static WebElement
-	 * AddSubCName;
-	 * 
-	 * @FindBy(how = How.CSS,using="select[id='subCatgId']") public static
-	 * WebElement AddCatName;
-	 * 
-	 * @FindBy(how = How.CSS,using="select[id='subCatgName']") public static
-	 * WebElement AddSubCatName;
-	 * 
-	 * @FindBy(how = How.CSS,using="select[id='subCatgDesc']") public static
-	 * WebElement AddSubCatDesc;
-	 * 
-	 * @FindBy(how = How.CSS,using="select[value='Add']") public static WebElement
-	 * AddSubCat;
-	 * 
-	 * @FindBy(how = How.XPATH,using="/html/body/main/div/div/div/form/b/i") public
-	 * static WebElement ASCmessage;
-	 */
+	
+	  @FindBy(how = How.XPATH,using="/html/body/main/div/div/div/div[2]/button") 
+	  public static WebElement AddCName;
+	  
+	  @FindBy(how = How.ID,using="catgName")
+	  public static WebElement CategoryNmae;
+	  
+	  
+	  @FindBy(how = How.ID,using="catgDesc")
+	  public static WebElement CategoryNmaeDesc;
+	  
+	  @FindBy(how = How.CSS,using="input[value='Add']") 
+	  public static WebElement add;
+	  
+	  
+	  @FindBy(how = How.XPATH,using="/html/body/main/div/div/div/form/b/i")
+	  public static WebElement message;
+	  
+	  
+	  
+	  @FindBy(how = How.XPATH,using="/html/body/main/div/div/div/div[3]/button") 
+	  public static WebElement AddSubCName;
+	  
+	  @FindBy(how = How.CSS,using="select[id='subCatgId']")
+	  public static WebElement AddCatName;
+	  
+	  @FindBy(how = How.CSS,using="input[id='subCatgName']")
+	  public static WebElement AddSubCatName;
+	  
+	  @FindBy(how = How.CSS,using="input[id='subCatgDesc']") 
+	  public static WebElement AddSubCatDesc;
+	  
+	  @FindBy(how = How.CSS,using="input[value='Add']") 
+	  public static WebElement AddSubCat;
+	  
+	  @FindBy(how = How.XPATH,using="/html/body/main/div/div/div/form/b/i")                                               
+	  public static WebElement ASCmessage;
+	 
 	
 	
 	
 	@FindBy(how = How.XPATH,using = "/html/body/main/div/div/div/div[1]/button")
 	public static WebElement AddProduct;
-	@FindBy(how = How.CSS,using = "select[id='categorydropid']")
+	@FindBy(how = How.ID,using = "categorydropid")
 	public static WebElement Cname;
 	@FindBy(how = How.CSS,using = "select[id='subcategorydropid']")
 	public static WebElement SCname;
@@ -66,7 +73,7 @@ public class AddProducts
     public static WebElement description;
 	@FindBy(how = How.NAME,using="input-file-preview")
     public static WebElement file;
-	@FindBy(how = How.CSS,using = "input[value='Add Product']")
+	@FindBy(how = How.XPATH,using = "/html/body/main/div/div/div/form/fieldset/div[10]/div/input[1]")
 	public static WebElement Product;
 	@FindBy(how = How.XPATH,using ="/html/body/main/div/div/div/form/b/i")
 	public static WebElement AddProductSuccessfully;

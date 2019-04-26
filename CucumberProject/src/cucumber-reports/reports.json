@@ -1,0 +1,374 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-04-26T09:56:49.669Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7104750600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LogStepDefs.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9146089000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefProducts.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8893866500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsReg.before()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Valid User Scenario",
+        "description": "",
+        "id": "login-feature;valid-user-scenario;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 231602100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LogStepDefs.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1220103300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The URL of TestMe App",
+            "match": {
+              "location": "LogStepDefs.the_URL_of_TestMe_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122565300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters Lalitha as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lalitha",
+                  "offset": 12
+                }
+              ],
+              "location": "LogStepDefs.user_enters_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119559600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Password123 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password123",
+                  "offset": 12
+                }
+              ],
+              "location": "LogStepDefs.user_enters_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2076082600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user in  Home",
+            "match": {
+              "location": "LogStepDefs.user_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@valid"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-26T09:57:18.600Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3839353800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LogStepDefs.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5003962700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefProducts.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4650253400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsReg.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Valid User Scenario",
+        "description": "",
+        "id": "login-feature;valid-user-scenario;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 130562200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LogStepDefs.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2535617500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The URL of TestMe App",
+            "match": {
+              "location": "LogStepDefs.the_URL_of_TestMe_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90962800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters admin as username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 12
+                }
+              ],
+              "location": "LogStepDefs.user_enters_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130114400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Password456 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password456",
+                  "offset": 12
+                }
+              ],
+              "location": "LogStepDefs.user_enters_as_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 885431000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user in  Admin Home",
+            "match": {
+              "location": "LogStepDefs.user_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@valid"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-04-26T09:57:35.873Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4072082000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LogStepDefs.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4494402300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefProducts.before()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5384855300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsReg.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "invalid scenario",
+        "description": "",
+        "id": "login-feature;invalid-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 2297103200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LogStepDefs.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2719847300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The URL of TestMe App",
+            "match": {
+              "location": "LogStepDefs.the_URL_of_TestMe_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1668500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters invalid data",
+            "match": {
+              "location": "LogStepDefs.user_enters_invalid_data(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abcxyz",
+                  "Password123"
+                ]
+              },
+              {
+                "cells": [
+                  "Lalitha",
+                  "abcxyz"
+                ]
+              },
+              {
+                "cells": [
+                  "abcxyz",
+                  "abcxyz"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 277600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is in login page",
+            "match": {
+              "location": "LogStepDefs.user_is_in_login_page(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "bdc"
+                ]
+              },
+              {
+                "cells": [
+                  "abg"
+                ]
+              },
+              {
+                "cells": [
+                  "ghj"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@invalid"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resourse/skeleton/login.feature",
+    "tags": []
+  }
+]
